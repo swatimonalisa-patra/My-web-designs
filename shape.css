@@ -1,0 +1,49 @@
+body{
+    background-color:#645d5e;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    color:cornsilk;
+    text-align:underline;
+}
+
+.shape img
+    {
+     width:200px;
+     height:200px;
+     border-radius:50%;
+     position:relative;
+     top:500px;
+     right:0;
+     border:3px solid #f5e50d;
+    }
+
+.shape .img1{
+    top:50px;
+}
+
+.shape .img2{
+   top:150px;
+   right:110px; 
+}
+
+.shape .img3{
+    top:250px;
+    right:210px;
+}
+
+
+.shape .img4{
+    top:150px;
+    right:310px;
+}
+        
+        
+.shape .img5{
+    top:50px;
+    right:410px;
+}
+

@@ -1,0 +1,73 @@
+body{
+    background-color:#230341;
+}
+
+h1{
+    text-align:center;
+    color:#97ccfd;
+    font-size:50px;
+}
+
+
+
+.contact-form{
+    max-width:650px;
+    margin:auto;
+    border-radius:5px;
+    background-color:cyan;
+    padding:20px;
+    text-align:center;
+}
+
+
+form img{
+    width:150px;
+    height:150px;
+    margin-right:450px;
+}
+
+form label{
+    color:darkgreen;
+    font-size:0.9rem;
+    font-weight:1000px;
+}
+
+form input, select, textarea{
+    width:200px;
+    height:40px;
+    border:#8b008b;
+    outline:none;
+    padding:12px 50px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid darkviolet;
+    border-radius:4px;
+    box-sizing:border-box;
+    background-color:#dee044;
+    box-shadow:5px 10px 20px darkmagenta;
+}
+
+form h2{
+    color:#8b008b;
+    margin-right:490px;
+}
+
+form p{
+    text-align:left;
+    color:#012401;
+}
+
+form button{
+    width:100%;
+    background-color:#dee044;
+    padding:14px 20px;
+    margin:8px 0;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    box-shadow:5px 10px 20px darkmagenta;
+}
+
+form button:hover{
+    background-color:#c76cc7;
+}
