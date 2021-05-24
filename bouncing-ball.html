@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bouncing ball animation</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        div{
+            border:10px solid #e61111;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background-color: #f0d3e4;
+        }
+        div ul{
+            display:flex;
+            border-bottom:10px solid #0c0b0b;
+        }
+        div ul li{
+            background-color:black;
+            width:50px;
+            height:50px;
+            list-style:none;
+            margin:0 15px;
+            border-radius:50%;
+            box-shadow:1px 2px 3px black;
+            animation:bouncy 1s linear infinite;
+        }
+        @keyframes bouncy
+        {
+                0%{transform:translateY(0);}
+                50%{transform:translateY(-400px);}
+                100%{transform:translateY(0);}
+        }
+        ul li:nth-child(1)
+        {
+            animation-delay:0.3s;
+            background-color:#be1fbe;
+        }
+        ul li:nth-child(2)
+        {
+            animation-delay:0.5s;
+            background-color:#0d0636;
+        }
+        ul li:nth-child(3)
+        {
+            animation-delay:0.6s;
+            background-color:#2b2bf7;
+        }
+        ul li:nth-child(4)
+        {
+            animation-delay:0.8s;
+            background-color:#052705;
+        }
+        ul li:nth-child(5)
+        {
+            animation-delay:0.9s;
+            background-color: #948608;
+        }
+        ul li:nth-child(6)
+        {
+            animation-delay:0.7s;
+            background-color: #682108;
+        }
+        ul li:nth-child(7)
+        {
+            animation-delay:0.11s;
+            background-color:#700707;
+        }
+        ul li:nth-child(8)
+        {
+            animation-delay:0.3s;
+            background-color:#680368;
+        }
+        ul li:nth-child(9)
+        {
+            animation-delay:0.5s;
+            background-color:#150475;
+        }
+        ul li:nth-child(10)
+        {
+            animation-delay:0.6s;
+            background-color:blue;
+        }
+        ul li:nth-child(11)
+        {
+            animation-delay:0.8s;
+            background-color:#047a04;
+        }
+        ul li:nth-child(12)
+        {
+            animation-delay:0.9s;
+            background-color: #def31e;
+        }
+        ul li:nth-child(13)
+        {
+            animation-delay:0.7s;
+            background-color: orangered;
+        }
+        ul li:nth-child(14)
+        {
+            animation-delay:0.11s;
+            background-color:red;
+        }
+        ul li:nth-child(15)
+        {
+            animation-delay:0.3s;
+            background-color:#803c80;
+        }
+        ul li:nth-child(16)
+        {
+            animation-delay:0.5s;
+            background-color:#0c72b6;
+        }
+        ul li:nth-child(17)
+        {
+            animation-delay:0.6s;
+            background-color:#043a6d;
+        }
+        ul li:nth-child(18)
+        {
+            animation-delay:0.8s;
+            background-color:#7dcf12;
+        }
+        ul li:nth-child(19)
+        {
+            animation-delay:0.9s;
+            background-color: #f6fa1d;
+        }
+        ul li:nth-child(20)
+        {
+            animation-delay:0.7s;
+            background-color: #ff0080;
+        }
+        ul li:nth-child(21)
+        {
+            animation-delay:0.11s;
+            background-color:rgb(90, 5, 17);
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    </div>
+</body>
+</html>
